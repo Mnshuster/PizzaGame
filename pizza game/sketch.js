@@ -21,21 +21,6 @@ function setup () {
    }
   }
 }
-
-/* function pepperoni (x,y) {
-  
-   
-    for (var y = 0; y <= height; y = y+random(0,500))
-    for (var x = 0; x < width; x = x + 50) {
-    fill(255,0,0);
-    ellipse(x,y,25,25);
-    
-    
-    }  
-}
-*/
-
-
 function draw () {
   background(0);
    fill(184,134,11);
@@ -55,15 +40,5 @@ function draw () {
     if (keyIsPressed && keyCode === LEFT_ARROW) {
             a = a - 10;
     }  
-    
-    
-    /* pepperoni(200,position-30);
-    if (position > height) {
-      pepperoni(200,position-30);
-    
-    } 
-    
-    position = position + speed ;
-    */
 }
  
